@@ -1,0 +1,158 @@
+body {
+    font: Montserrat!important;
+    color:#686868!mportant;
+    background-color: #fff;
+    /*#CEE7D8;*/
+}
+
+p {
+    font-size: 12pt!important;
+    line-height: 1.6em;
+    font-weight: 300;
+    margin-top: 20px;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    padding:0 10px;
+}
+
+h2 {
+    color:#626262;
+    text-decoration: none;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 2em;
+    margin:10px;
+}
+
+a {
+    cursor:auto;
+    text-decoration: none;
+    color:#333;
+}
+
+a:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    color:#4DB6AC;
+}
+
+small {
+    font-weight:light;
+}
+
+.logo {
+    margin;auto;
+    padding:15px;
+}
+.waves-effect {
+    vertical-align: top!important;
+}
+.navbar-search {
+    margin:0!important;
+}
+
+.logo-box {
+    margin: 0 auto;
+    z-index: 55;
+}
+
+.custom-bg {
+    background-color: #C0392B;
+}
+
+.card-image {
+    margin:15px auto;
+    width:100%;
+    height:auto;
+    border-radius:9px;
+}
+
+.episode-date {
+    font-size: 11pt;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: light;
+    text-transform: uppercase;
+    margin-top:15px;
+    margin-left:10px;
+    margin-bottom:0px;
+}
+
+.social-sharing {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #82B541;
+}
+
+.hosts-image {
+    border:1px solid #135764;
+    padding:5px;
+    background-color: transparent;
+    margin:10px 5px 0;
+    border-radius: 50%
+    height: auto;
+    -webkit-box-shadow: 0 0 3px 0 #B5B5B5;
+}
+
+.your-host {
+    font-family: inherit;
+    font-size: 18pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding:1.5%;
+    line-height: 1.2;
+}
+
+.hosts-name {
+    display: block;
+    letter-spacing: 1px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding:10px;
+    color:#2C3E50;
+}
+
+.fix {
+    margin:30px 0 0;
+}
+
+#playlist {
+    width: 80%;
+    height: auto;
+}
+
+.excerpts {
+    letter-spacing: .01em;
+    border-bottom:3px solid;
+    width:20%;
+}
+
+.error {
+    font-size:160pt;
+    color:grey;
+    font-weight:bold;
+    line-height: 1em;
+}
+
+.error-message {
+    font-weight:bold;
+    line-height: 1em;
+    color:red;
+}
+
+.error-exit-message {
+    color:grey;
+}
+
+.spacer
+{
+    margin:8%;
+}
+.btn-large {
+    text-transform: capitalize;
+}
+
+.loader
+{
+    display: none;
+    position: fixed;
+    margin: 25% 50%;
+}
