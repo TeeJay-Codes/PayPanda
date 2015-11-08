@@ -36,6 +36,7 @@ class CreateTransaction extends Job implements SelfHandling
 
         $transaction = $this->user->transactions()->create([
             'beneficiary_id' => $beneficiary->id,
+            'beneficiary_name' => $beneficiary->username,
             'amount'         => $command->request->get('amount'),
             'details'        => $command->request->get('details'),
             'ref'            => $command->request->get('ref'),

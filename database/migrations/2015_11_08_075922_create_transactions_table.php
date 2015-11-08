@@ -16,6 +16,7 @@ class CreateTransactionsTable extends Migration
             $table->increments('id');
             $table->integer('user_id');
             $table->integer('beneficiary_id');
+            $table->string('beneficiary_name');
             $table->decimal('amount', 11,2);
             $table->string('details');
             $table->string('ref');
