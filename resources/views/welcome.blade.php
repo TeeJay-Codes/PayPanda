@@ -316,7 +316,7 @@
                             </div>
                             <div class="col-sm-4">
                                 <div class="h1 push-5" data-toggle="countTo" data-to="890" data-after="+"></div>
-                                <div class="font-w600 text-uppercase text-muted">Web Apps</div>
+                                <div class="font-w600 text-uppercase text-muted">Users</div>
                             </div>
                         </div>
                         <!-- END Section Content -->
