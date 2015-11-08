@@ -272,7 +272,7 @@
                             <div class="col-sm-4">
                                 <div class="text-center push-30">
                                     <span class="item item-2x item-circle border">
-                                        <i class="si si-rocket"></i>
+                                        <img width = "100px;"src="{!! asset('1.png') !!}">
                                     </span>
                                 </div>
                                 <h3 class="h5 font-w600 text-uppercase text-center push-10">Buyer & Seller make contact</h3>
@@ -281,7 +281,7 @@
                             <div class="col-sm-4">
                                 <div class="text-center push">
                                     <span class="item item-2x item-circle border">
-                                        <i class="si si-screen-smartphone"></i>
+                                        <img width = "100px;"src="{!! asset('2.png') !!}">
                                     </span>
                                 </div>
                                 <h3 class="h5 font-w600 text-uppercase text-center push-10">Seller ships goods to buyer</h3>
@@ -290,7 +290,7 @@
                             <div class="col-sm-4">
                                 <div class="text-center push">
                                     <span class="item item-2x item-circle border">
-                                        <i class="si si-clock"></i>
+                                        <img width = "100px;"src="{!! asset('3.png') !!}">
                                     </span>
                                 </div>
                                 <h3 class="h5 font-w600 text-uppercase text-center push-10">PayPanda releases funds</h3>
