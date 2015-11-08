@@ -59,3 +59,7 @@ Route::get('/wellet', [
 Route::get('/transaction/confirm/{id}', [
     'uses'  => 'TransactionController@confirmTransaction'
 ]);
+
+Route::get('t', function () {
+    return view('transaction.confirm2');
+});
