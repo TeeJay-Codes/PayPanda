@@ -71,7 +71,7 @@
                     <!-- jQuery Validation (.js-validation-register class is initialized in js/pages/base_pages_register.js) -->
                     <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
                     <form class="js-validation-register form-horizontal push-50-t push-50" action="{{ route('register') }}" method="post">
-                        {{ csrf_fields }}
+                        {!! csrf_field() !!}
                         <div class="form-group">
                             <div class="col-xs-12">
                                 <div class="form-material form-material-success">
@@ -115,7 +115,7 @@
                         <div class="form-group">
                             <div class="col-xs-12">
                                 <div class="form-material form-material-success">
-                                    <input class="form-control" type="password" id="register-password2" name="password_confirmatio" placeholder="..and confirm it">
+                                    <input class="form-control" type="password" id="register-password2" name="password_confirmation" placeholder="..and confirm it">
                                     <label for="register-password2">Confirm Password</label>
                                 </div>
                             </div>

@@ -57,7 +57,7 @@
             <div class="row items-push">
                 <div class="col-sm-7">
                     <h1 class="page-heading">
-                        @yield('title') <small>Subtitle.</small>
+                        @yield('title')
                     </h1>
                 </div>
             </div>
@@ -80,7 +80,7 @@
 <!-- END Page Container -->
 
 <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
-<script src="assets/js/oneui.min.js"></script>
+<script src="/assets/js/oneui.min.js"></script>
 
 <!-- Page JS Plugins + Page JS Code -->
 </body>
