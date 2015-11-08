@@ -3,4 +3,5 @@
  */
 localStorage.setItem("money", 500);
 
-#('#money').test('fvihdfvdjfh');
+var wallet = localStorage.getItem('money');
+var m = document.getElementById('money').innerHTML = wallet;

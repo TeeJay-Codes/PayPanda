@@ -55,7 +55,7 @@
                     <div class="col-xs-6 col-sm-3">
                         <div class="font-w700 text-gray-darker animated fadeIn">Debit Balance</div>
                         <div class="text-muted animated fadeIn"><small><i class="si si-calendar"></i> Today</small></div>
-                        <a id ="money" class="h2 font-w300 text-primary animated flipInX" href="base_comp_charts.html"></a>
+                        <a id ="money" class="h2 font-w300 text-primary animated flipInX" href="base_comp_charts.html">rgjhdfjh</a>
                     </div>
                 
                 </div>
