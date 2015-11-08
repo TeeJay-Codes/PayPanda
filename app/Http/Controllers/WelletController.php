@@ -2,27 +2,28 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
+use App\User;
+use App\Wellet;
 use App\Http\Requests;
+use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class DashBoardController extends Controller
+class WelletController extends Controller
 {
+
     public function __construct()
     {
-        $this->middleware('auth');
+        //$this->middleware('auth');
 
         parent::__construct();
     }
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
+
     public function index()
     {
-        return view('dashboard.index');
+        //return view('dashboard.index');
+        $wellet = User::get();
+        return var_dump($wellet);
     }
 
     /**

@@ -47,3 +47,9 @@ Route::get('/dashboard', [
     'as'    => 'dashboard',
     'uses'  => 'DashboardController@index'
 ]);
+
+
+Route::get('/wellet', [
+    'as'    => 'wellet',
+    'uses'  => 'WelletController@index'
+]);
