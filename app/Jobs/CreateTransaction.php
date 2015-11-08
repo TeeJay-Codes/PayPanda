@@ -42,7 +42,13 @@ class CreateTransaction extends Job implements SelfHandling
             'status'         => 'pending'
         ]);
 
-        // raise event to notify beneficiary
+        $mail_user = $transactions->beneficiary_id;
+        $beneficiary_user = App\User::get($mail_user);
+        $this->mail->send('emails.welcome', ['name' => $data['username']], function ($message) use ($beneficiary_user)
+        {
+            $message->from( getenv('SENDER_ADDRESS'), getenv('PayPanda'));
+            $message->to($beneficiary_user->email)->subject('Welcome to PayPanda');
+        });
 
     }
 }
