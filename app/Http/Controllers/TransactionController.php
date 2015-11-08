@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\CreateTransactionRequest;
+use App\Transaction;
 
 class TransactionController extends Controller
 {
@@ -99,5 +100,12 @@ class TransactionController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function confirmTransaction($id)
+    {
+        $transaction = Transaction::whereId($id)->first();
+
+        return view('transaction.confirm', compact('transaction'));
     }
 }

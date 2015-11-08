@@ -37,19 +37,20 @@ class CreateTransaction extends Job implements SelfHandling
         $transaction = $this->user->transactions()->create([
             'beneficiary_id' => $beneficiary->id,
             'beneficiary_name' => $beneficiary->username,
+            'initiator_name'   => $this->user->username,
             'amount'         => $command->request->get('amount'),
             'details'        => $command->request->get('details'),
             'ref'            => $command->request->get('ref'),
             'status'         => 'pending'
         ]);
 
-        $mail_user = $transactions->beneficiary_id;
-        $beneficiary_user = App\User::get($mail_user);
-        $this->mail->send('emails.welcome', ['name' => $data['username']], function ($message) use ($beneficiary_user)
-        {
-            $message->from( getenv('SENDER_ADDRESS'), getenv('PayPanda'));
-            $message->to($beneficiary_user->email)->subject('Welcome to PayPanda');
-        });
+//        $mail_user = $transactions->beneficiary_id;
+//        $beneficiary_user = App\User::get($mail_user);
+//        $this->mail->send('emails.welcome', ['name' => $data['username']], function ($message) use ($beneficiary_user)
+//        {
+//            $message->from( getenv('SENDER_ADDRESS'), getenv('PayPanda'));
+//            $message->to($beneficiary_user->email)->subject('Welcome to PayPanda');
+//        });
 
     }
 }

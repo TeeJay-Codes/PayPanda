@@ -55,3 +55,7 @@ Route::get('/wellet', [
     'as'    => 'wellet',
     'uses'  => 'WelletController@index'
 ]);
+
+Route::get('/transaction/confirm/{id}', [
+    'uses'  => 'TransactionController@confirmTransaction'
+]);
