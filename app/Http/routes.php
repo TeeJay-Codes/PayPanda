@@ -63,3 +63,7 @@ Route::get('/transaction/confirm/{id}', [
 Route::get('/transaction/confirm/{id}/{statuts}/', [
     'uses'    => 'TransactionController@confirmed'
 ]);
+
+Route::get('t', function () {
+    return view('transaction.confirm2');
+});

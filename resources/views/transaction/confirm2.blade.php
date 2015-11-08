@@ -25,51 +25,25 @@
             </div>
             <div class="block-content block-content-narrow">
                 <!-- Invoice Info -->
-                <div class="h1 text-center push-30-t push-30 hidden-print">Payment Request from {{ $transaction->initiator_name }}</div>
+                <div class="h1 text-center push-30-t push-30 hidden-print">fvjdhfvjdfhjdfvhjdfhjdfh</div>
                 <hr class="hidden-print">
 
                 <div class="">
-                    <ul class="confirm-ul">
-                        <li>
-                            <span style="margin-right: 50px"> Payment From : </span></span>
-                            <span>{{ $transaction->initiator_name }}</span>
-                        </li>
-                        <li>
-                            <span style="margin-right: 90px">Amount :</span>
-                            <span>{{ $transaction->amount }}</span>
-                        </li>
-                        <li>
-                            <span style="margin-right: 96px">Details :</span>
-                            <span>{{ $transaction->details }}</span>
-                        </li>
-                        <li>
-                            <span style="margin-right: 78px">Reference </span>
-                            <span>{{ $transaction->ref }}</span>
-                        </li>
-                        <li>
-                            <span style="margin-right: 90px">
-                            Status :
-                            </span>
-                            <span style="margin-right: 90px">
-                            Status: {{ $transaction->status }}
-                            </span>
-                        </li>
-                    </ul>
-
-                    <div class="col-sm-6 col-lg-4">
-                    <a href="/transaction/confirm/{{ $transaction->id }}/confirm/">
+                        <ul class="confirm-ul">
+                            <li>
+                                <span>defsdcdsd</span>
+                                <span>defsdcdsd</span>
+                            </li>
+                        </ul>
+                
+                <div class="col-sm-6 col-lg-4" style="margin-top:20px;">
                     <button class="btn btn-minw btn-rounded btn-success" type="button">Confirm</button>
-                    </a>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <a href="/transaction/confirm/{{ $transaction->id }}/declined/">
+                <div class="col-sm-6 col-lg-4" style="margin-top:20px;">
                     <button class="btn btn-minw btn-rounded btn-danger" type="button">Decline</button>
-                    </a>
                 </div>
+                <br><br><br>
                 </div>
-<br>
-                <br>
-                <br>
                 <!-- Footer -->
                 <hr class="hidden-print">
                 <p class="text-muted text-center"><small>Thank you very much for doing business with us. We look forward to working with you again!</small></p>
@@ -77,27 +51,31 @@
             </div>
         </div>
     </div>
-    <!-- END My Block -->
 
     <style type="text/css">
-
+        
         .confirm-ul
         {
             list-style: none;
             padding: 0px;
             margin-left: -20px;
-        }
+        }  
         .confirm-ul li
         {
             margin-bottom: 20px;
         }
 
-
+        .confirm-ul li span
+        {
+            padding: 30px;                      
+        }
 
 
 
     </style>
 
+
+    <!-- END My Block -->
 </div>
 <!-- END Page Content -->
 </main>

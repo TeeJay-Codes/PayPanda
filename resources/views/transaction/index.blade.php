@@ -19,7 +19,7 @@
             @foreach($transactions as $transaction)
             <tr>
                 <td class="text-center">{{ $transaction->id }}</td>
-                <td><a href="#">{{ $transaction->beneficiary_name }}</a></td>
+                <td><a href="/transaction/confirm/{{ $transaction->id }}/">{{ $transaction->beneficiary_name }}</a></td>
                 <td class="hidden-xs">
                     <span class="label label-primary">{{ $transaction->status }}</span>
                 </td>

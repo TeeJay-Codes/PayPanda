@@ -32,7 +32,16 @@
         <div class="block-content">
             <div class="content bg-white border-b">
                 <div class="row items-push text-uppercase">
-                
+
+                    <div class="col-xs-6 col-sm-4 col-lg-2">
+                        <a class="block block-link-hover2 text-center" href="/transaction/create">
+                            <div class="block-content block-content-full bg-modern">
+                                <i class="si si-note fa-4x text-white"></i>
+                                <div class="font-w600 text-white-op push-15-t">New Transaction</div>
+                            </div>
+                        </a>
+                    </div>
+
                     <div class="col-xs-6 col-sm-3">
                         <div class="font-w700 text-gray-darker animated fadeIn">Total Balance</div>
                         <div class="text-muted animated fadeIn"><small><i class="si si-calendar"></i> Today</small></div>
@@ -41,12 +50,12 @@
                     <div class="col-xs-6 col-sm-3">
                         <div class="font-w700 text-gray-darker animated fadeIn">Credit Balance</div>
                         <div class="text-muted animated fadeIn"><small><i class="si si-calendar"></i> Today</small></div>
-                        <a class="h2 font-w300 text-primary animated flipInX" href="base_comp_charts.html">300</a>
+                        <a class="h2 font-w300 text-primary animated flipInX" href="base_comp_charts.html">100</a>
                     </div>
                     <div class="col-xs-6 col-sm-3">
                         <div class="font-w700 text-gray-darker animated fadeIn">Debit Balance</div>
                         <div class="text-muted animated fadeIn"><small><i class="si si-calendar"></i> Today</small></div>
-                        <a class="h2 font-w300 text-primary animated flipInX" href="base_comp_charts.html">300</a>
+                        <a id ="money" class="h2 font-w300 text-primary animated flipInX" href="base_comp_charts.html"></a>
                     </div>
                 
                 </div>

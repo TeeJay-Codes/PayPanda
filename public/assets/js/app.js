@@ -1123,5 +1123,7 @@ var App = function() {
     };
 }();
 
+
+alert('erhdfugg')
 // Initialize app when page loads
 jQuery(function(){ App.init(); });

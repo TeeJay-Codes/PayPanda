@@ -22,24 +22,24 @@
                 <div class="side-content">
                     <ul class="nav-main">
                         <li>
-                            <a class="active" href="start_backend.html"><i class="si si-speedometer"></i><span class="sidebar-mini-hide">Dashboard</span></a>
+                            <a class="active" href="/dashboard"><i class="si si-speedometer"></i><span class="sidebar-mini-hide">Dashboard</span></a>
                         </li>
                         <li class="nav-main-heading"><span class="sidebar-mini-hide">My Account</span></li>
                         <li>
                             <a href="#"><i class="si si-rocket"></i><span class="sidebar-mini-hide">Fund Wallet</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="si si-rocket"></i><span class="sidebar-mini-hide">Wallet Balance</span></a>
+                            <a href="/database"><i class="si si-rocket"></i><span class="sidebar-mini-hide">Wallet Balance</span></a>
                         </li>
                         <li>
                             <a href="#"><i class="si si-rocket"></i><span class="sidebar-mini-hide">Redrawal Request</span></a>
                         </li>
                         <li class="nav-main-heading"><span class="sidebar-mini-hide">Transaction</span></li>
                         <li>
-                            <a href="#"><i class="si si-note"></i><span class="sidebar-mini-hide">New Transaction</span></a>
+                            <a href="/transaction/create"><i class="si si-note"></i><span class="sidebar-mini-hide">New Transaction</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="si si-rocket"></i><span class="sidebar-mini-hide">All Transaction</span></a>
+                            <a href="/transaction/"><i class="si si-rocket"></i><span class="sidebar-mini-hide">All Transaction</span></a>
                         </li>
                     </ul>
                 </div>
