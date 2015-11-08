@@ -40,10 +40,14 @@
                 Status: {{ $transaction->status }}
                         <br>
                 <div class="col-sm-6 col-lg-4">
+                    <a href="/transaction/confirm/{{ $transaction->id }}/confirm/">
                     <button class="btn btn-minw btn-rounded btn-success" type="button">Confirm</button>
+                    </a>
                 </div>
                 <div class="col-sm-6 col-lg-4">
+                    <a href="/transaction/confirm/{{ $transaction->id }}/declined/">
                     <button class="btn btn-minw btn-rounded btn-danger" type="button">Decline</button>
+                    </a>
                 </div>
                 </div>
 

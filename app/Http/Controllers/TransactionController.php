@@ -108,4 +108,23 @@ class TransactionController extends Controller
 
         return view('transaction.confirm', compact('transaction'));
     }
+
+    public function confirmed($id, $status)
+    {
+        if($status === 'confirm')
+        {
+            Transaction::where('id', $id)
+                ->update(['status' => 'Accepted : In Progress']);
+
+            return redirect()->route('transaction.index');
+        }
+
+        if ($status === 'declined')
+        {
+            Transaction::where('id', $id)
+            ->update(['status' => 'Declined']);
+
+            return redirect()->route('transaction.index');
+        }
+    }
 }
