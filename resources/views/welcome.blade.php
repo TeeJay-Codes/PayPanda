@@ -154,7 +154,7 @@
                                             <a href="frontend_login.html">Log In</a>
                                         </li>
                                         <li>
-                                            <a href="frontend_signup.html">Sign Up</a>
+                                            <a href="/register">Sign Up</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -242,18 +242,18 @@
             <!-- Main Container -->
             <main id="main-container">
                 <!-- Hero Content -->
-                <div class="bg-image" style="background-image: url('assets/img/various/hero1.jpg');">
+                <div class="bg-image" style="background-image: url('assets/img/various/hero1.png');">
                     <div class="bg-primary-dark-op">
                         <section class="content content-full content-boxed overflow-hidden">
                             <!-- Section Content -->
                             <div class="push-100-t push-50 text-center">
-                                <h1 class="h2 text-white push-10 visibility-hidden" data-toggle="appear" data-class="animated fadeInDown">Build your Web Application with One.</h1>
-                                <h2 class="h5 text-white-op push-50 visibility-hidden" data-toggle="appear" data-class="animated fadeInDown">Powerful, flexible and reliable UI framework that just works. Your valuable feedback made it happen.</h2>
-                                <a class="btn btn-rounded btn-noborder btn-lg btn-primary visibility-hidden" data-toggle="appear" data-class="animated bounceIn" data-timeout="800" href="frontend_pricing.html">Sign Up</a>
+                                <h1 class="h2 text-white push-10 visibility-hidden" data-toggle="appear" data-class="animated fadeInDown">Transact more conveniently</h1>
+                                <h2 class="h5 text-white-op push-50 visibility-hidden" data-toggle="appear" data-class="animated fadeInDown">Powerful, flexible and secure escrow payment platform that just works. Your valuable intiative made it happen.</h2>
+                                <a class="btn btn-rounded btn-noborder btn-lg btn-primary visibility-hidden" data-toggle="appear" data-class="animated bounceIn" data-timeout="800" href="register">Sign Up</a>
                             </div>
                             <div class="row visibility-hidden" data-toggle="appear" data-class="animated fadeInUp">
                                 <div class="col-sm-8 col-sm-offset-2">
-                                    <img class="img-responsive pull-b" src="assets/img/various/promo1.jpg" alt="">
+                                    <img class="img-responsive pull-b" src="{!! asset('wall.png') !!}" alt="">
                                 </div>
                             </div>
                             <!-- END Section Content -->
@@ -331,7 +331,7 @@
                         <!-- Section Content -->
                         <div class="push-20-t push-20 text-center">
                             <h3 class="h4 push-20 visibility-hidden" data-toggle="appear">Clean design in one powerful package. It was made for your next awesome project.</h3>
-                            <a class="btn btn-rounded btn-noborder btn-lg btn-success visibility-hidden" data-toggle="appear" data-class="animated bounceIn" href="frontend_pricing.html">Get Started Today</a>
+                            <a class="btn btn-rounded btn-noborder btn-lg btn-success visibility-hidden" data-toggle="appear" data-class="animated bounceIn" href="login">Get Started Today</a>
                         </div>
                         <!-- END Section Content -->
                     </section>
@@ -372,7 +372,7 @@
                                     <a class="font-w600" href="frontend_login.html">Log In</a>
                                 </li>
                                 <li>
-                                    <a class="font-w600" href="frontend_signup.html">Sign Up</a>
+                                    <a class="font-w600" href="register">Sign Up</a>
                                 </li>
                                 <li>
                                     <a class="font-w600" href="frontend_support.html">Support Center</a>
