@@ -26,11 +26,34 @@
                     <button type="button" data-toggle="block-option" data-action="close"><i class="si si-close"></i></button>
                 </li>
             </ul>
-            <h3 class="block-title">My Block</h3>
+            <h3 class="block-title">My Wellet</h3>
         </div>
+        
         <div class="block-content">
-            <p>...</p>
+            <div class="content bg-white border-b">
+                <div class="row items-push text-uppercase">
+                
+                    <div class="col-xs-6 col-sm-3">
+                        <div class="font-w700 text-gray-darker animated fadeIn">Total Balance</div>
+                        <div class="text-muted animated fadeIn"><small><i class="si si-calendar"></i> Today</small></div>
+                        <a class="h2 font-w300 text-primary animated flipInX" href="base_comp_charts.html">300</a>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <div class="font-w700 text-gray-darker animated fadeIn">Credit Balance</div>
+                        <div class="text-muted animated fadeIn"><small><i class="si si-calendar"></i> Today</small></div>
+                        <a class="h2 font-w300 text-primary animated flipInX" href="base_comp_charts.html">300</a>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <div class="font-w700 text-gray-darker animated fadeIn">Debit Balance</div>
+                        <div class="text-muted animated fadeIn"><small><i class="si si-calendar"></i> Today</small></div>
+                        <a class="h2 font-w300 text-primary animated flipInX" href="base_comp_charts.html">300</a>
+                    </div>
+                
+                </div>
+            </div>
         </div>
+
+
     </div>
     <!-- END My Block -->
 </div>

@@ -50,3 +50,8 @@ Route::get('/dashboard', [
 
 // Transaction routes group
 Route::resource('/transaction', 'TransactionController');
+
+Route::get('/wellet', [
+    'as'    => 'wellet',
+    'uses'  => 'WelletController@index'
+]);
